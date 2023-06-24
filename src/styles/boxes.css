@@ -1,0 +1,67 @@
+.boxes__links {
+    width: 100%;
+    padding: 0 0 50px;
+}
+.boxes__links .links__boxDiv {
+    width: 100%;
+    height: 350px;
+    position: relative;
+    overflow: hidden;
+    background-color: #000;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.boxes__links .links__boxDiv .content {
+    background: transparent;
+}
+.boxes__links .links__boxDiv .content {
+    width: 80%;
+    position: absolute;
+    z-index: 1;
+    left: 40px;
+    bottom: 40px;
+    vertical-align: bottom;
+    color: #fff;
+}
+.boxes__links .links__boxDiv .content h3 {
+    color: #fff;
+}
+
+.boxes__links .links__boxDiv .content h3 {
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 700;
+}
+.boxes__links .links__boxDiv .content p {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 500;
+}
+
+.boxes__links .links__boxDiv .content .btn-outline-primary {
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 500;
+    color: #fff !important;
+    border-color: #fff !important;
+    width: 200px;
+    height: 40px;
+    background: transparent !important;
+    margin-top: 15px;
+}
+
+.boxes__links .links__boxDiv .overly.bg-dark {
+    background: linear-gradient(73.3deg, rgba(1, 23, 36, 0.8) 20.76%, rgba(0, 0, 0, 0) 95.86%) !important;
+}
+.boxes__links .links__boxDiv .overly.bg-gradient {
+    background: linear-gradient(100.05deg, #058AC3 13.34%, rgba(132, 0, 178, 0.24) 89.02%) !important;
+}
+.boxes__links .links__boxDiv .overly {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}

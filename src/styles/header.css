@@ -1,0 +1,84 @@
+.nav-link{
+    font-size: 13px !important;
+    font-weight: 500 !important;
+    color: #012C46 !important;
+    height: 40px !important;
+    vertical-align: middle;
+    line-height: 33px !important;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0.5rem 0.9rem;
+}
+#popup1btn{
+    color: #0680C4 !important;
+    background: transparent !important;
+    border-radius: 50rem !important;
+    border: 1px solid #0680C4 !important;
+    width: 140px;
+    font-size: 14px;
+    height: 40px;
+    vertical-align: middle;
+    line-height: 38px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.btn.btn-icon {
+    width: 38px;
+    height: 40px;
+    color: rgba(0, 0, 0, 0.30) !important;
+    position: relative!important;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    box-shadow: none!important;
+    outline: 0!important;
+    margin: 0 !important;
+    font-size: 17px !important;
+}
+.btn.btn-icon:hover {
+    color: #0680C4 !important;
+   
+}
+.drop_wish{
+    font-size:16px;
+    
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    color: rgba(0, 0, 0, 0.30) !important;
+}
+span.fa.fa-heart.count_wish {
+    color: rgba(0, 0, 0, 0.30) !important;
+    padding-top: 14px;
+    padding-left: 10px;
+    padding-right: 5px;
+}
+a , .loginDiv a {
+    display: inline-block;
+    text-decoration: none;
+}
+.btn.btn-link.vbplogin {
+    width: auto !important;
+    margin: 0 5px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+header .btn.btn-info {
+    
+    font-size: 14px;
+    color: #fff;
+    width: 110px;
+    height: 40px;
+    background-color: #8F1AB9;
+    border-color: #8F1AB9;
+    vertical-align: middle;
+    line-height: 27px;
+    margin: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+header .rounded-pill {
+    border-radius: 50rem !important;
+}

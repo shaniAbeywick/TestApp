@@ -1,38 +1,35 @@
-.App {
-  text-align: center;
+html {
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+* {
+  max-height: 1000000px;
+  margin: 0;
+  padding: 0;
+}
+html, body, p, h1, h2, h3, h4, h5, h6, a, span, div, ul, li, nav, input, button, select, textarea, optgroup, option, form, fieldset, table, tr, td {
+  font-family: 'Poppins', sans-serif !important;
+}
+ol ,ul {
+  list-style: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+footer, footer a, .footerwidget li a, footer .form_field, footer .input-text, footer .ninja-forms-field, footer .wpcf7 input.wpcf7-text, footer #s, .footerwidget .widget_course_list li h6, .footerwidget .widget_course_list li h6 span, footer .course-list1, footer .chosen-container.chosen-with-drop .chosen-drop, footer .chosen-container-active.chosen-with-drop .chosen-single, footer .chosen-container-single .chosen-single {
+  color: #595959;
 }
-
-.App-link {
-  color: #61dafb;
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.35em;
+  color: #282828;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
 }

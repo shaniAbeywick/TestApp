@@ -1,0 +1,36 @@
+.section_title {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+}
+.recent_blog_posts {
+    width: 100%;
+    padding: 65px 0 120px;
+    background: linear-gradient(100.05deg, #058AC3 1.49%, #8400B2 100%);
+}
+.owl-stage{
+    transform: translate3d(-8827px, 0px, 0px);
+    transition: all 0.25s ease 0s; width: 12752px;
+}
+.owl-item .cloned{
+    width: 311.95px; 
+    margin-right: 15px;
+}
+.recent_blog_posts .card {
+    padding: 1.5rem;
+    background-color: #fff;
+    
+}
+.recent_blog_posts .card figure {
+    width: 100%;
+    height: 125px;
+    overflow: hidden;
+}
+.recent_blog_posts .card figure img{
+    width: 100%;
+    object-fit: cover;
+    object-position: bottom right;
+    transition: transform .5s ease;
+}

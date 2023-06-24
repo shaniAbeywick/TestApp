@@ -1,0 +1,34 @@
+.main_header_aera {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    min-height: 500px;
+    background-repeat: no-repeat;
+    background-position: 20% center;
+    margin-top: 95px !important;
+    padding: 0;
+}
+.main_header_aera .container .content_div h1 {
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 700;
+    color: #fff;
+}
+.main_header_aera .container .content_div p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    display: inline-block;
+    width: 100%;
+}
+.main_header_aera .content_div .input-group-text {
+    font-size: 20px;
+    color: #068AC4;
+    border: 1px solid #068AC4;
+    border-right: 0 !important;
+}
+.main_header_aera .content_div .input-group-text {
+    background-color: #fff;
+    height: 55px;
+    border-radius: 0.625rem;
+}

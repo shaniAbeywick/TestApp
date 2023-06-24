@@ -1,0 +1,186 @@
+.together__shaping {
+    padding: 90px 0;
+    background-color: #fff;
+}
+.section_title {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+.section_title h2 {
+    font-size: 32px !important;
+    font-weight: 500;
+    color: #000;
+    font-family: 'Poppins', sans-serif !important;
+    letter-spacing: 0px;
+    margin: 0;
+    text-transform: uppercase;
+}
+.nav-tabs {
+    border: none !important;
+    margin-bottom: 25px;
+}
+.nav-tabs .nav-item:first-child .nav-link {
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+.nav-tabs .nav-item:last-child .nav-link {
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+}
+.nav-tabs .nav-link.active {
+    color: #fff !important;
+    background-color: #8D1CBA !important;
+}
+.nav-tabs .nav-link {
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    color: #8D1CBA ;
+    width: 230px;
+    height: 48px !important;
+    background-color: #F5F4F9;
+    border: none !important;
+    border-radius: 70px !important;
+    font-family: 'Poppins', sans-serif !important;
+
+}
+
+/* tab content styles */
+#myTabContent {
+    border: 0px;
+    padding: 0;
+}
+.tab-content {
+    width: 100%;
+    padding: 15px;
+    display: inline-block;
+    border: #dfdede solid 1px;
+    margin-bottom: 15px;
+}
+.tab-pane.fade.active.show {
+    opacity: 1;
+}
+.course__widget {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    background: #F5F4F9;
+    padding: 1.25rem;
+    border-radius: 10px;
+    margin: 12px 0;
+    box-shadow: 0 16px 100px rgba(0, 0, 0, 0.0);
+    box-sizing: border-box;
+    transition: all 0.5s ease;
+}
+.custom_wish {
+    position: absolute !important;
+    cursor: pointer !important;
+    text-align: center;
+    right: 12px;
+    top: 12px;
+    background: #fff;
+    cursor: pointer;
+    line-height: 0;
+    padding-top: 16px;
+    width: 30px !important;
+    height: 30px;
+    border-radius: 50%;
+}
+.course__widget .star-rating {
+    margin: 0 !important;
+}
+.star-rating {
+    font-size: 14px !important;
+    padding-left: 0 !important;
+    margin-left: 0;
+    color: #FCA241 !important;
+    height: 16px;
+    width: 75px;
+    line-height: 1;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+}
+.course__widget .title {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    height: 65px;
+}
+.course__widget .course_info {
+    display: flex;
+    align-items: center!important;
+    padding: 5px 0 15px;
+}
+.course__widget .course_info img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+.course__widget .course_info div span {
+    width: 100%;
+    padding-bottom: 0px;
+    display: flex;
+    align-items: center!important;
+    text-align: left;
+}
+.course__widget .course_info div span i {
+    font-size: 14px;
+    color: rgba(1, 44, 70, 0.18);
+    margin-right: 5px;
+}
+.course__widget .course_info div bdi.price {
+    display: flex;
+    text-align: left;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 700;
+    color: #005099;
+    padding-bottom: 0;
+    align-items: center;
+}
+.course__widget .widget_foot {
+    display: flex;
+    align-items: center!important;
+    justify-content: space-between!important;
+}
+.course__widget .widget_foot .btn.btn-outline-primary {
+    margin-right: 12px;
+}
+.btn-outline-primary {
+    color: #0680C4 !important;
+    border: 1px solid #0680C4 !important;
+    background: #fff !important;
+}
+.course__widget .widget_foot .btn.btn-primary {
+    margin-left: 12px;
+    background-color: #0680C4;
+    border-color: #0680C4;
+    margin-right: 0;
+}
+.course__widget .widget_foot .btn {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 23px;
+    width: 100%;
+    height: 35px;
+}
+.together__shaping a.btn.btn-link {
+    font-size: 18px;
+    font-weight: 700;
+    color: #0680C4;
+    align-items: center;
+    padding: 0 !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-top: 30px;
+}
